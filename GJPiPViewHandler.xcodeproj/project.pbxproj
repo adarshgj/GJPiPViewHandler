@@ -14,6 +14,9 @@
 		395062E11F53E8BB00370097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 395062E01F53E8BB00370097 /* Assets.xcassets */; };
 		395062E41F53E8BB00370097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395062E21F53E8BB00370097 /* LaunchScreen.storyboard */; };
 		395062EF1F53E8BB00370097 /* GJPiPViewHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395062EE1F53E8BB00370097 /* GJPiPViewHandlerTests.swift */; };
+		395062FB1F53E91500370097 /* GJPiPViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395062FA1F53E91500370097 /* GJPiPViewHandler.swift */; };
+		395062FF1F53E9C700370097 /* GJUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395062FE1F53E9C700370097 /* GJUtils.swift */; };
+		395063011F53EA0900370097 /* GJPiPViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395063001F53EA0900370097 /* GJPiPViewConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		395062EA1F53E8BB00370097 /* GJPiPViewHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJPiPViewHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		395062EE1F53E8BB00370097 /* GJPiPViewHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJPiPViewHandlerTests.swift; sourceTree = "<group>"; };
 		395062F01F53E8BB00370097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395062FA1F53E91500370097 /* GJPiPViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJPiPViewHandler.swift; sourceTree = "<group>"; };
+		395062FE1F53E9C700370097 /* GJUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJUtils.swift; sourceTree = "<group>"; };
+		395063001F53EA0900370097 /* GJPiPViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJPiPViewConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		395062D51F53E8BB00370097 /* GJPiPViewHandler */ = {
 			isa = PBXGroup;
 			children = (
+				395062F91F53E8DF00370097 /* GJPiPView */,
 				395062D61F53E8BB00370097 /* AppDelegate.swift */,
 				395062D81F53E8BB00370097 /* ViewController.swift */,
 				395062DA1F53E8BB00370097 /* Main.storyboard */,
@@ -97,6 +104,16 @@
 				395062F01F53E8BB00370097 /* Info.plist */,
 			);
 			path = GJPiPViewHandlerTests;
+			sourceTree = "<group>";
+		};
+		395062F91F53E8DF00370097 /* GJPiPView */ = {
+			isa = PBXGroup;
+			children = (
+				395062FA1F53E91500370097 /* GJPiPViewHandler.swift */,
+				395062FE1F53E9C700370097 /* GJUtils.swift */,
+				395063001F53EA0900370097 /* GJPiPViewConfiguration.swift */,
+			);
+			path = GJPiPView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395063011F53EA0900370097 /* GJPiPViewConfiguration.swift in Sources */,
+				395062FF1F53E9C700370097 /* GJUtils.swift in Sources */,
+				395062FB1F53E91500370097 /* GJPiPViewHandler.swift in Sources */,
 				395062D91F53E8BB00370097 /* ViewController.swift in Sources */,
 				395062D71F53E8BB00370097 /* AppDelegate.swift in Sources */,
 				395062DF1F53E8BB00370097 /* GJPiPViewHandler.xcdatamodeld in Sources */,
